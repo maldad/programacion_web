@@ -1,0 +1,63 @@
+body{
+    background-image:url("");
+    /*
+    background-repeat: repeat-x || repeat-y || no-repeat;
+    background-position: x y; 
+    */
+}
+  /*
+    etiqueta{}
+    .clase{}
+    #id{}
+    etiqueta1, etiqueta2, etiqueta3
+    .clase1, .clase2, .clase3{}
+  */
+h1, h2{
+    text-align: center;
+    background-color: #fcd;
+    text-shadow: 9px 9px 2px blue;
+    border: 15px solid green;
+    border-radius: 50px;
+}
+em{
+    color: green;
+    background-color: yellow;
+}
+
+strong{
+    color: white;
+    background-color: black;
+}
+
+pre{
+    color: yellow;
+    background-color: black;
+}
+code{
+    color: cyan;
+    background-color: black;
+}
+
+.introduccion{
+    /* font-family: "Courier", monospace; */
+    /*primero intenta usar Courier, en caso de que no pueda,
+    utiliza monospace*/
+    /*
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bolder;
+    */
+    /* font: style size family*/
+    font: italic 15px "Courier", monospace;
+
+    /* developer.mozilla.org/es/docs/web/css/font  */
+}
+
+.cierre{
+    background-color: #cfd;
+    color: #000;
+    font-size: 15;
+    text-align: center;
+    text-decoration: none;
+    line-height: 10px;
+} 

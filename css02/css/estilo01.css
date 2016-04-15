@@ -1,0 +1,61 @@
+body{
+	background-color: whitesmoke;
+}
+
+h1{
+	font-size: 40px;
+}
+
+p{
+	color: black
+}
+
+/* aplica esta regla al elemento HTML que tenga ese id
+formato: #id 
+el selector de id está ya en desuso :/
+*/
+#parrafo-advertencia{
+	color: blue
+}
+
+
+/* aplica esta regla al elemento HTML que sea parte de esa clase
+formato: .class
+el selector de clase es bueno :)
+*/
+.notas{
+	color: red;
+	background-color: lightblue
+}
+
+.advertencias{
+	color: blue;
+	background-color: yellow
+}
+
+a{
+/*Pseudoclases de a, link, hover, visited, active*/
+	color: teal;
+/*buscar: Normalize.css*/
+}
+
+/* aplica esta regla a todos los elementos del HTML
+formato: *
+el selector universal no es tan recomendable :(
+*/ 
+/*
+*{
+	font-size: 50px
+}
+*/
+
+/*
+ORDEN DE APLICACION DE LAS ETIQUETAS EN UN CSS
+se le da prioridad a la ultima encontrada
+por tanto, se van respetando asi como van apareciendo en el .css
+
+De lo más genérico -> a lo mas particular o indivual
+body, h1, 						notas, advertencias, clases
+*
+
+

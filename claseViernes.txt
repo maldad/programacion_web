@@ -1,0 +1,5 @@
+etiquetas:
+    BR
+    STRONG
+    EN
+    I
