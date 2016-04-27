@@ -1,0 +1,68 @@
+body{
+    width  : 80%;
+    margin : 0 auto;
+}
+p{
+    margin: 50px;
+    border: 15px groove blue;
+    /* border: width style color */
+    /* border-top, border-left, border-right, border-bottom */
+    /* style: style:none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit; */
+    background-color: lightblue;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+h1 span{
+    /* text-align : center;*/
+    border-top    : 3px solid black;
+    font-size     : 90px;
+}
+
+h2{
+    text-align    : right;
+    border-right  : 5px solid red;
+    padding-right : 10px;
+}
+.intro-hist{
+    background-color: black;
+    height: 600px;
+}
+.introduccion{
+    background-color: pink;
+    /* layout
+        float : left | right
+        position: static | fixed | relative | top | bottom | left | right
+    */
+    width: 48%;
+    float: left;
+    /* flotar dentro del contenedor en que se encuentre */
+    margin: 0px;
+    padding: 0px;
+}
+
+.historia{
+    background-color : yellow;
+    width            : 48%;
+    float            : right;
+    margin           : 0px;
+    padding          : 0px;
+}
+.term{
+    text-align       : center;
+    background-color : whitesmoke;
+    border           : hidden;
+    padding          : 0px;
+    line-height      : 0px;
+}
+.term img{
+    width                      : 200px;
+    background-color           : teal;
+    /*
+    border-top-left-radius     : 30%;
+    border-bottom-right-radius : 30%;
+    */
+    border-radius              : 15%;
+}

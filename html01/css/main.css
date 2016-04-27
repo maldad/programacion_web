@@ -1,0 +1,108 @@
+/*
+ * Colores obtenidos de:
+ *    http://www.colorcombos.com/color-schemes/7625/ColorCombo7625.html
+ *
+ */
+/***************************/
+/** Reglas para etiquetas **/
+/***************************/
+body {
+  background-color: #FCF4D9;
+}
+p {
+  font: normal 15px sans-serif;
+}
+ol {
+  font: normal 15px sans-serif;
+  list-style-type: lower-greek;
+}
+em {
+  font-size: 14px;
+  font-family: serif;
+}
+strong {
+  font-weight: lighter;
+  text-decoration: underline;
+}
+/*
+ * Imagen obtenida de:
+ *    http://subtlepatterns.com/gray-floral/
+ */
+pre {
+  background-color: #fcd;
+  background-image: url("../img/greyfloral.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+/************************/
+/** Reglas para clases **/
+/************************/
+.titulo-principal {
+  /*
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: serif;
+  */
+  font: italic bold 40px serif;
+  color: #462066;
+  text-align: center;
+  text-shadow: 2px 2px #FFB85F;
+}
+.introduccion {
+  background-color: #8ED2C9;
+  text-align: justify;
+  font-size: 18px;
+}
+/* Enlaces en class="introduccion" */
+.introduccion a,
+.introduccion a:link,
+.introduccion a:visited,
+.introduccion a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.introduccion a:hover {
+  color: #FF7A5A;
+  text-decoration: underline;
+}
+/* Enlaces en class="etiquetas-codecs" */
+.etiquetas-codecs a,
+.etiquetas-codecs a:link,
+.etiquetas-codecs a:visited,
+.etiquetas-codecs a:active,
+.etiquetas-codecs a:hover {
+  color:    #fff;
+  background-color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.youtube {
+  text-align: center;
+  background-color: #FFB85F;
+  line-height: 0px;
+}
+.youtube iframe {
+  width: 560px;
+  height: 315px;
+}
+.nuevos-elementos {
+  background-color: #462066;
+  color: #fff;
+}
+.nuevos-elementos code {
+  color: #FFB85F;
+}
+.fuente {
+  text-align: right;
+}
+.termino {
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+}
+.definicion {
+  font-style: italic;
+  background-color: yellow;
+  color: red;
+}

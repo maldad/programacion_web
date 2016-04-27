@@ -1,0 +1,72 @@
+html {
+  background-color: #F8F8F2;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #FF7182;
+}
+.contenedor {
+  overflow: hidden;
+}
+.col {
+  /*
+   * Reglas para que la columna de la derecha sea de la
+   * misma altura que la de la izquierda, dentro del contenedor.
+   */
+  /*
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+  overflow: hidden;
+  */
+}
+.col-derecha {
+  float: left;
+  width: 20%;
+  background-color: #FFAE5D;
+}
+.col-derecha ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.col-derecha ul li {
+  padding-left: 10px;
+  margin-top: 10px;
+  border-left: 5px solid #000;
+}
+.col-izquierda {
+  float: right;
+  width: 80%;
+  background-color: #E45641;
+}
+.col-izquierda h1 {
+  text-align: right;
+}
+.col-izquierda p {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.consorcio-www {
+  font-size: 10px;
+  background-color: #5D4C46;
+  color: #fff;
+}
+.consorcio-historia {
+  font-size: 10px;
+  background-color: #44B3C2;
+  color: #fff;
+}
+.html5-establece {
+  clear: both;
+}
+.pie {
+  background-color: #6F3662;
+}
+.pie p {
+  text-align: right;
+  color: #F8F8F2;
+}
