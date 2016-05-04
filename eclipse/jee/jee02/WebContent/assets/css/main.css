@@ -1,0 +1,87 @@
+body {
+  background-image: url("../img/square_bg.png");
+}
+.contenedor {
+  width: 40%;
+  margin: 10px auto;
+  background-color: transparent;
+}
+.cabecera h1 {
+  margin: 0px;
+  color: #888;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 10px;
+}
+.menu {
+  background-color: #777;
+  text-align: center;
+}
+.menu ul {
+  margin: 0px;
+  list-style-type: none;
+}
+.menu li {
+  display: inline-block;
+  padding: 10px;
+}
+.menu li:hover {
+  background-color: #888;
+}
+.menu a, .menu a:link, .menu a:visited, .menu a:hover, .menu a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.cuerpo {
+  padding: 10px 50px 10px 50px;
+  border: 1px solid #888;
+}
+.formulario {
+  font-weight: bolder;
+}
+.formulario fieldset {
+  border: 0px;
+}
+.formulario div {
+  overflow: hidden;
+}
+.formulario label {
+  float: left;
+  width: 30%;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+.formulario input {
+  float: right;
+  width: 69%;
+  margin: 0px;
+  padding: 2px 0px 2px 0px;
+}
+.formulario input.enviar {
+  margin-top: 10px;
+  padding: 5px;
+}
+.datos-personales {
+  list-style-type: none;
+  font-weight: bolder;
+}
+.datos-personales li {
+  padding-left: 20px;
+}
+.datos-personales span {
+  font-style: italic;
+  font-weight: lighter;
+}
+.regresar {
+  text-align: right;
+}
+.regresar a {
+  background-color: #888;
+  padding: 10px;
+}
+.regresar a, .regresar a:link, .regresar a:visited, .regresar a:hover, .regresar a:active {
+  color: #fff;
+  text-decoration: none;
+}
