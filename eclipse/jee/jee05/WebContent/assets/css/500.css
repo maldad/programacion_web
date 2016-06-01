@@ -1,0 +1,29 @@
+body {
+	margin: 0px auto;
+	padding: 0px auto;
+	height: 100%;
+	width: 50%;
+	background-color: #f8f8f8;
+}
+
+.contenedor {
+	width: 960px;
+	background-color: #ffb2ae;
+	padding: 10px;
+  
+	/*
+	 * Fuente: https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/
+	 */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.contenedor h1 {
+	text-align: left;
+}
+
+.contenedor p {
+	text-align: right;
+}

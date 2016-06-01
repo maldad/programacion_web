@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Context>
+<Context>
+  <!--
+       El atributo "url" tiene como valor una cadena de carácteres en la cual se indican algunos parámetros
+       para la conexión.
+
+       Puedes encontrar más información y ejemplos en: https://jdbc.postgresql.org/documentation/94/connect.html
+
+       Por ejemplo:
+
+       *  Si trabajas en tu **entorno local** y te conectas a la base de datos **postgres**:
+
+            url="jdbc:postgresql://127.0.0.1:5432/postgres
+
+       *  Si despliegas tu aplicación (WAR) a tu **entorno de producción**, suponiendo que tu base de
+          datos es **bdd12345**:
+
+            url="jdbc:postgresql://localhost:9685/bdd12345
+          
+       Notas:
+       
+            username="TU USUARIO DEL SGBD"
+            password="LA CONTRASEÑA DE TU USUARIO DEL SGBD"
+            url="jdbc:postgresql://DIRECCIÓN IP o NOMBRE DE HOST DEL SGBD:PUERTO TCP DEL SGBD/BASE DE DATOS A CONECTARSE"
+  -->
+  <Resource
+    name="jdbc/PostgreSQL"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="org.postgresql.Driver"
+    maxActive="10"
+    maxIdle="5"
+    username="postgres"
+    password=""
+    url="jdbc:postgresql://localhost:9494/bdprueba" />
+</Context>

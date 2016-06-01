@@ -1,0 +1,32 @@
+body {
+	width: 960px;
+	margin: 10px auto 50px auto;
+	font-size: 75%;
+}
+
+h1 {
+	margin: 5px 0px 5px 0px;
+	padding: 0xp;
+}
+
+hr {
+	border: 1px solid #000;
+	margin: 5px 0px 5px 0px;
+}
+
+ul {
+	list-style-type: circle;
+	margin: 5px;
+	padding: 0px;
+	list-style-position: inside;
+}
+
+a {
+	color: #00e;
+	text-decoration: none;
+}
+
+a:link, a:active, a:hover, a:visited {
+	color: #00e;
+	text-decoration: none;
+}
