@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import jee06.clases.ClasePorDefault;
 import jee06.clases.Formulario;
 import jee06.clases.Inicio;
+import jee06.clases.Triangulo;
 import jee06.utilerias.Log;
 import jee06.utilerias.ParametroHttp;
 
@@ -42,6 +43,13 @@ public class Router extends HttpServlet {
             break;
         }
         break;
+      case "Triangulo":
+    	  switch (metodo){
+    	  case "calcularArea":
+    		  Triangulo.calcularArea(request, response);
+    	  break;
+    	  }
+      break;
       default:
         ClasePorDefault.metodoPorDefault(request, response);
         break;
@@ -70,6 +78,12 @@ public class Router extends HttpServlet {
             Formulario.metodoPorDefault(request, response);
             break;
         }
+      case "Triangulo":
+    	  switch (metodo){
+    	  case "imprimirArea":
+    		  Triangulo.imprimirArea(request, response);
+        	  break;
+    	  }
         break;
       default:
         ClasePorDefault.metodoPorDefault(request, response);
